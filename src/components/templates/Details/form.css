@@ -1,0 +1,134 @@
+.name_form_control {
+  display: flex;
+  width: 100px;
+  height: 50px;
+  padding: 6px 12px;
+  font-size: 16px;
+  line-height: 1.42;
+  color: #990066; /* Новый цвет текста */
+  font-family: "Arial", sans-serif; /* Новый шрифт текста */
+  background-color: #d9d9d9; /* Новый цвет фона */
+  border-radius: 4px;
+  flex-direction: row;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.name_form_control:focus {
+  outline: none;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+  transition: 0.3s;
+  border-bottom: 10px solid #ff3300; /* Новый цвет подчеркивания при фокусе */
+}
+
+.comment_form_control {
+  display: flex;
+  width: 500px;
+  height: 100px;
+  padding: 6px 12px;
+  font-size: 16px;
+  line-height: 1.42;
+  color: #990066; /* Новый цвет текста */
+  font-family: "Arial", sans-serif; /* Новый шрифт текста */
+  background-color: #d9d9d9; /* Новый цвет фона */
+  border-radius: 4px;
+  text-align: start;
+  text-align: top;
+  word-wrap: break-word;
+  box-sizing: border-box;
+}
+
+.comment_form_control:focus {
+  outline: none;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+  transition: 0.3s;
+  border-bottom: 10px solid #ff3300; /* Новый цвет подчеркивания при фокусе */
+}
+
+.form_group {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  margin: 10px;
+}
+
+button[type="submit"] {
+  background-color: #990033; /* Новый цвет фона */
+  border: none;
+  color: white; /* Новый цвет текста */
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.rounded-square {
+  border-radius: 5%;
+
+  background-color: #990033; /* Новый цвет фона */
+  border: none;
+  color: white; /* Новый цвет текста */
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 20px;
+}
+
+
+.idcontent {
+  height: 100vh;
+  margin: 0% 10%;
+  padding: 3% 0;
+  display: flex;
+  flex-direction: column;
+  /*background: lightgrey;*/
+}
+
+.movie-details {
+  display: flex;
+}
+
+img {
+  border-radius: 5%;
+  border: 3px solid black;
+  max-width: 100%;
+  height: auto;
+  margin-right: 20px; /* Регулируйте отступ справа по вашему вкусу */
+}
+
+.details {
+  margin: 4% 2%;
+  flex-grow: 1;
+}
+
+.idpage{
+  /*background: lightgrey;*/
+  width: 100%;
+  height: 100%;
+}
+
+.bt{
+  padding: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  border-radius: 25%;
+}
+
+.bg{
+  margin-right: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 50%;
+  border: 2px solid black;
+}
+
+.StatisticItem{
+  color: bisque;
+  background: green;
+}
